@@ -1,0 +1,240 @@
+/* query format */
+#wrapper
+{
+	width: auto;
+	margin: 0 auto;
+	
+}
+body {
+	font-family: "helvetica_neue95_black", Arial, sans-serif;
+	/*background-color: #ff6666;*/
+}
+/* The following three table items format all the tables the same way
+to make them more pretty to look at, but not too pretty because that would
+be to crazy */
+table
+{
+	width:100%;
+	right: 0;
+	top: 30%;
+	left: 0;
+	padding-bottom: 10px;
+}
+table tr:nth-child(odd) td {
+		background-color: white;
+		border-style: solid;
+		border-color: white;
+}
+
+table tr:nth-child(even) td{
+	background-color: #FFF7F7;
+	color: black;
+	border-style: solid;
+	border-color: #FFF7F7;
+	border-spacing: 0;
+}
+
+table th {
+	background-color: #cf0a2c;
+	color: white;
+
+}
+
+/* Login, middle of screen */
+#login {
+
+	width:325px;
+	height:220px;
+	position:absolute;
+	left:50%;
+	top:425px;
+	margin:-100px 0 0 -150px;
+	background-color: #cf0a2c;
+	color: white;
+	text-align:center;
+	padding: 5px;
+
+}
+/* the formatting for the searchbar */
+#searchbar {
+	width:100%;
+	right: 0;
+	top: 18%;
+	left: 0;
+	background-color: white;
+	text-align:center;
+	padding-bottom: 5px;
+	padding-top: 5px;
+
+}
+/* error formatting */
+#error {
+	top: 425px;
+	color: red;
+	text-align: center;
+	left:50%;
+	padding-top: 10px;
+
+}
+/*id to display the messgae that the user has sucessufly logged out*/
+#logout {
+	top: 425px;
+	color: green;
+	text-align: center;
+	left:50%;
+	padding-top:10px;
+
+
+}
+/* style for the session data */
+#sessiondata {
+	float: right;
+
+}
+
+
+/* generic header */
+#header {
+  right: 0;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  background-color: #cf0a2c;
+  color: white;
+  text-align: center;
+  }
+ #header a {
+  color: white;
+  }
+
+/*generic footer */
+#footer {
+  padding: 5px;
+  color: white;
+  background-color: #cf0a2c;
+  text-align: center;
+  align: bottom;
+  margin-top: 10px;
+  }
+/* the below nave id is used to position the menu bar at the center */
+#nav {
+	wdith: 100%;
+	margin:0 auto;
+	background-color: #cf0a2c;
+	text-align:center;
+	align: top;
+//	padding-bottom: 5px;
+}
+
+/*
+The three following items (ul, li, li and li a:hover) are used to
+create the menubar ontop of all the pages using a list.
+*/
+ul {
+		text-align: center; //
+		width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+	color: #cf0a2c;
+}
+
+li {
+    //float: left;
+		display: inline-block;
+		background-color: white;
+		list-style: none; //
+}
+
+li a {
+		font-family: "helvetica_neue95_black", "Arial Black", Arial, sans-serif;
+		display: block; //
+		width: 120px;
+		margin 0: auto;
+		font-size: 15px;
+		font-weight: 300;
+		line-height: 20px;
+		padding-top: 3px;
+   	 	display: block;
+    	color: #cf0a2c;
+		border:solid 2px #cf0a2c;
+		background-color: #ffff;
+    	text-align: center;
+    	padding: 14px 16px;
+    	text-decoration: none;
+}
+
+li a:hover {
+	border:solid 2px #cf0a2c;
+	background-color: #cf0a2c;
+	color: white;
+
+}
+/*used to display the MD5 guys image in the middle*/
+#banner {
+	margin: 0 auto;
+	display: block;
+	//background-color: #cf0a2c;
+}
+#instructions{
+	margin: auto;
+	margin-top:50px;
+    width: 75%;
+    border: 3px solid #D30003;
+    padding: 25px;
+	background-color: #FFF7F7;
+}
+/*This class centers all content, which makes centering content easy*/
+.center{
+	text-align: center;	
+}
+/*This is the formatting for the titles on home.php*/
+#title{
+	text-align: center;
+	font-weight: bold;
+	color: red;	
+}
+/*This is the formatting for the main title on home.php*/
+#main-title{
+	
+	font-weight: bold;	
+	color: green;
+	font-size: 14px;
+}
+/*This is the formatting for home.php slogan at the top*/
+#slogan{
+	color: red;
+	font-size: 18px;	
+}
+/*This if the formatting for the paragraphs in home.php*/
+#instructions p {
+    text-indent: 50px;
+}
+/*This is the formatting for the logout reminder*/
+#instructions-logout{
+font-size: 20px;
+color:#0024FF;
+font-weight:bold;	
+}
+/*This is the formatting for the create user box in admin.php*/
+#create-user
+{
+	width:350px;
+	height:300px;
+	position:absolute;
+	left:50%;
+	top:425px;
+	margin:-100px 0 0 -150px;
+	background-color: #cf0a2c;
+	color: white;
+	text-align:center;
+}
+/*This is the formatting for the password confirmation error*/
+#passworderror
+{
+	color: white;
+	font-size: 9px;
+}
+/*end of style*/ 
