@@ -1,15 +1,6 @@
 <?php
 /*
-	MD5 Guys
-	By: Johnathan Lamberson, Mike Bercume, Kyle Cooper
-	Date: May 3, 2016
-	Professor Jung
-	CSCI 373
-	Purpose of Page: Checks if the user is logged in based on session data.
-	also returns the information of the currently logged in user.
-	This page is required at the top of all the php pages to check
-	for login. If they are not logged in according to session variables, then
-	they are not able to access the website.
+
 */
 session_start();
 $user = $_SESSION[user];

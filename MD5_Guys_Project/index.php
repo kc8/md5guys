@@ -28,13 +28,6 @@ if (returnLoggedin() == "true")
 
 <?php
 /*
-	MD5 Guys
-	By: Johnathan Lamberson, Mike Bercume, Kyle Cooper
-	Date: May 3, 2016
-	Professor Jung
-	CSCI 373
-	Purpose of Page: This is the main page in which the user will be directed to
-	It always prompts them for login
 */
 	session_start();
 

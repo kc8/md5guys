@@ -69,14 +69,7 @@ if (getRole() == "other")
 
 		<?php
 		/*
-			MD5 Guys
-			By: Johnathan Lamberson, Mike Bercume, Kyle Cooper
-			Date: May 3, 2016
-			Professor Jung
-			CSCI 373
-			Purpose of Page: This page askes the users how many new entries they want to make into the
-			database and to what table. Then displays inputs (limited to a max of 20). Then takes the inputs
-			and sends them to add.php so they can be added to the appropriate table
+			
 		*/
 			$amount = $_POST['amount']; //amount of rows to add (from text box)
 			$parameter = $_POST['parameter']; //what table to be added to (from dropdown)

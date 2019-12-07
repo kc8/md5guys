@@ -28,12 +28,6 @@
 			require "./session.php";
 			printLogout();
 			/*
-				MD5 Guys
-				By: Johnathan Lamberson, Mike Bercume, Kyle Cooper
-				Date: May 3, 2016
-				Professor Jung
-				CSCI 373
-				Purpose of Page: The purpose of this page is give a little information about how to use the site to the users. This site will also have a hidden admin category that will only show if the user is an admin.
 			*/
 			?>
 		</div>

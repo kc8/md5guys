@@ -1,12 +1,6 @@
 <?php
 /*
-	MD5 Guys
-	By: Johnathan Lamberson, Mike Bercume, Kyle Cooper
-	Date: May 3, 2016
-	Professor Jung
-	CSCI 373
-	Purpose of Page: This page does the adding of the rows from insert.php into the database
-	It will also display errors and tell the user to go back if this is the case
+
 */
 	require "./session.php";
 	if (returnLoggedin() == "false")

@@ -1,14 +1,6 @@
 <?php
 /*
-	MD5 Guys
-	By: Johnathan Lamberson, Mike Bercume, Kyle Cooper
-	Date: May 3, 2016
-	Professor Jung
-	CSCI 373
-	Purpose of Page: Logs the user out of the  current session and then redirects
-	them back to index.php. This page unsets the loggedin and username varables and then 
-	writes a successful logout message to the index.php page. If there is an error, an error is 
-	printed on the index.php page.
+
 */
 session_start();
 $user = $_SESSION[user];

@@ -1,13 +1,6 @@
 <?php
 /*
-	MD5 Guys
-	By: Johnathan Lamberson, Mike Bercume, Kyle Cooper
-	Date: May 3, 2016
-	Professor Jung
-	CSCI 373
-	Purpose of Page: The page that logs the user in. Checks the database
-	to see if the username exists and the password exists, if it does then save username 
-	and logged in variables in the session. Each page will later check for this information. 
+
 */
 //require session.php to make sure user is not logged in already
 require "./session.php";

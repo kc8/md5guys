@@ -1,13 +1,6 @@
 <?php
 /*
-				MD5 Guys
-				By: Johnathan Lamberson, Mike Bercume, Kyle Cooper
-				Date: May 3, 2016
-				Professor Jung
-				CSCI 373
-				Purpose of Page: This pages takes the data from update.php and then adds
-				it to the apporiate table in teh database
-				Parameter variable is the table that needs to be updated
+
 				*/
 
 //check to make sure the user is logged in.

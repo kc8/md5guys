@@ -61,15 +61,7 @@
 		?>
 
 		<?php
-			/*
-				MD5 Guys
-				By: Johnathan Lamberson, Mike Bercume, Kyle Cooper
-				Date: May 3, 2016
-				Professor Jung
-				CSCI 373
-				Purpose of Page: The purpose of this page is to query the database and
-				display the results in a table. The user can query the department, project
-				or employee table.
+			/*.
 			*/
 			//Start a session, declare session variables
 			session_start();
