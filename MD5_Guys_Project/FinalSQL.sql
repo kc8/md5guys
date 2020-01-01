@@ -63,9 +63,9 @@ insert into tblplProject values(NULL, 'Backup Research');
 insert into tblplProject values(NULL, 'Website Design');
 insert into tblplProject values(NULL, 'PHP Coding');
 
-insert into tblEmployee values(NULL, 'Mike Burcume', 'blob', '1/1/2011', '1', '1', '5000000');
-insert into tblEmployee values(NULL, 'Kyle Cooper', 'blob', '1/2/15', '2', '3', '5000000');
-insert into tblEmployee values(NULL, 'Johnathan Lamberson', 'blob', '1/3/14', '3', '2', '5000000');
+insert into tblEmployee values(NULL, 'Bob Creg', 'blob', '1/1/2011', '1', '1', '5000000');
+insert into tblEmployee values(NULL, 'Joe Smith', 'blob', '1/2/15', '2', '3', '5000000');
+insert into tblEmployee values(NULL, 'Time Lauren', 'blob', '1/3/14', '3', '2', '5000000');
 
 insert into tblUser values('NULL', 'admin','5c8e2ff86628ba9ba4402c1e3e06572c', 'admin');
 insert into tblUser values('NULL', 'employee','5c8e2ff86628ba9ba4402c1e3e06572c', 'employee');
